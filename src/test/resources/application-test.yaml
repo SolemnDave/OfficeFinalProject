@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:office;mode=MYSQL
+    
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
